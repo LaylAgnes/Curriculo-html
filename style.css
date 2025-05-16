@@ -70,22 +70,23 @@ body {
 
 /* Responsivo */
 @media (max-width: 768px) {
-  body {
-    padding: 10px;
-  }
+ html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
   .curriculo {
-    flex-direction: column;
-    width: 100%;
-    margin: 0 auto;
-    box-shadow: none;
-    border-radius: 0;
-  }
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: none;
+  border-radius: 0;
+}
 
   .sidebar,
   .conteudo {
     width: 100%;
-    padding: 0;
+    padding: 20;
   }
 
   .sidebar img {
