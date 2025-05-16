@@ -69,9 +69,11 @@ body {
 
 
 @media (max-width: 768px) {
-  .curriculo {
+   .curriculo {
     flex-direction: column;
-    margin: 20px;
+    align-items: stretch; /* Garante que sidebar e conteudo ocupem 100% */
+    width: 100%;
+    box-shadow: none;
   }
 
   .sidebar, .conteudo {
