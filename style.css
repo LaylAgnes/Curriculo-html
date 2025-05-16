@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f7fa;
+  color: #333;
+}
+
+.curriculo {
+  display: flex;
+  max-width: 1000px;
+  margin: 40px auto;
+  background: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.sidebar {
+  background-color: #0391f4;
+  color: white;
+  padding: 30px;
+  width: 35%;
+  text-align: center; /* Centraliza texto */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza elementos */
+}
+.sidebar img{
+  border-radius: 50%;
+  border: 3px solid rgb(35, 107, 179);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.sidebar ul {
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar ul li {
+  margin: 3px 0;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+}
+
+.conteudo {
+  padding: 30px;
+  width: 65%;
+}
+
+.conteudo h2 {
+  border-bottom: 2px solid #0391f4;
+  padding-bottom: 5px;
+  margin-top: 0;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills li {
+  background-color: #e0f0ff;
+  padding: 5px 10px;
+  border-radius: 20px;
+  list-style: none;
+}
