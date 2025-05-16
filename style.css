@@ -85,7 +85,7 @@ body {
   .sidebar,
   .conteudo {
     width: 100%;
-    padding: 20px;
+    padding: 0;
   }
 
   .sidebar img {
