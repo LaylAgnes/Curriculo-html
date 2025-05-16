@@ -1,8 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
   background: #f4f7fa;
   color: #333;
+  overflow-x: hidden;
 }
 
 .curriculo {
@@ -11,6 +16,7 @@ body {
   margin: 40px auto;
   background: white;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  width: 100%;
 }
 
 .sidebar {
@@ -18,12 +24,13 @@ body {
   color: white;
   padding: 30px;
   width: 35%;
-  text-align: center; /* Centraliza texto */
+  text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centraliza elementos */
+  align-items: center;
 }
-.sidebar img{
+
+.sidebar img {
   border-radius: 50%;
   border: 3px solid rgb(35, 107, 179);
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
@@ -67,26 +74,25 @@ body {
   list-style: none;
 }
 
-
 /* Responsivo */
 @media (max-width: 768px) {
- html, body {
-  max-width: 100%;
-  overflow-x: hidden;
-}
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
 
   .curriculo {
-  flex-direction: column;
-  width: 100%;
-  margin: 0 auto;
-  box-shadow: none;
-  border-radius: 0;
-}
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: none;
+    border-radius: 0;
+  }
 
   .sidebar,
   .conteudo {
     width: 100%;
-    padding: 20;
+    padding: 20px; /* Corrigido aqui */
   }
 
   .sidebar img {
@@ -101,4 +107,3 @@ body {
     justify-content: center;
   }
 }
-
